@@ -10,7 +10,7 @@
     }
   },
   "scripts": {
-    "postinstall": "node_modules/.bin/tns install",
+    "install-tns": "node_modules/.bin/tns install",
     "run": "node_modules/.bin/tns run android --emulator",
     "watch": "node_modules/.bin/tns livesync android --emulator --watch"
   },
